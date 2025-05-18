@@ -1,0 +1,1 @@
+self.addEventListener("push",(function(i){const t=i.data.json(),n=t.title||"FinMate Notification",o={body:t.body,icon:"/icons/icon-192x192.png"};i.waitUntil(self.registration.showNotification(n,o))}));
