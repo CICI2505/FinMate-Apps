@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@maptiler/sdk": "^3.0.3",
+    "firebase": "^11.8.1",
     "idb": "^8.0.3",
     "leaflet": "^1.9.4",
     "tiny-slider": "^2.9.4",
